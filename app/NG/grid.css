@@ -1,0 +1,167 @@
+
+.header{
+	height:150px;
+	border-bottom:2px solid red;
+}
+.header_1{
+	height:72px;
+	width:350px;
+	margin:46px 0px 30px 40px;
+	float:left;		
+}
+.header_2{
+	height:60px;
+	width:60px;
+	margin-left:25px;
+	float:left;	
+}
+.header_3{
+	width:180px;
+	margin-right:50px;
+	margin-top:7px;
+	color:white;
+	line-height:48px;
+	font-size:33px;
+	font-weight:1000;
+	float:right;    
+}
+.header2{ 
+    float:right;
+	height:50px;
+	width:210px;
+	color:white;
+	margin:48px 88px 30px 40px;		
+}
+.header2_of_1{
+    float:right;
+	height:50px;
+	width:70px;
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+    line-height:48px;		
+}
+.header2_of_2{
+       float:right;
+	   height:50px;
+       width:100px; 
+       float:right; 
+       font-size:17px;
+	   font-weight:bold;
+	   line-height:48px; 
+}
+.col1{
+	width:1030px;
+	height:325px;
+	float:left;
+}
+img{
+	width:250px;
+	height:325px;
+	float:left;
+}
+.col3{
+	width:728px;
+	height:325px;
+	float:right;
+	color:white;
+	
+}
+.col3_1{
+	width:600px;
+	height:225px;
+	float:left;	
+}
+p {
+   font-size:20px;
+   font-weight :bold;  
+}
+.col3_11{
+	width:220px;
+	height:30px;
+	
+}
+.col3_12{
+	width:495px;
+	height:70px;
+	margin-top:10px;
+}
+.col3_121{
+	width:248px;
+	height:18px;
+	line-height:18px;	
+}
+.action_row{
+	width:728px;
+	border:2px solid red;
+	height:50px;
+	float:left;
+	margin-top:45px;
+}
+.watch{
+	width:70px;
+	height:37px;
+	float:left;
+	margin-top:40px;
+	margin-left:393px;
+	margin-bottom:30px;
+	color:white;
+	font-size:17px;
+	font-weight:bold;
+    line-height:48px;
+}
+.movie_row{
+	height:350px;
+	width:1030px;
+	margin:auto auto;
+	margin-top:24px;
+}
+.delete {
+        width:32px;
+        height:45px;
+        float:right;
+        color:white;
+        margin-top:5px;   
+ }
+ 
+.like{    
+    width:24px;
+	height:29px;
+	float:left;  
+	margin-left:1px;
+	float:left;
+	margin-top:18px;
+}
+
+.dislike{  
+    width:24px;
+	height:29px;  
+	float:left;
+	margin-left:9px;
+	margin-top:18px;
+ }
+  
+ .Circle{    
+    width:29px;
+	height:29px;  
+	border-radius:32px;
+	border:2px solid red;
+	margin-left:32px;
+	margin-top:17px;
+	float:left;	
+ }
+ 
+.p2{
+    position:relative;
+    bottom:40px;
+    left:8px;
+    color:white;
+}
+
+
+	
+
+
+
+
+
