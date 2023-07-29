@@ -98,23 +98,12 @@ p {
 	float:left;
 	margin-top:45px;
 }
-.watch{
-	width:70px;
-	height:37px;
-	float:left;
-	margin-top:40px;
-	margin-left:393px;
-	margin-bottom:30px;
-	color:white;
-	font-size:17px;
-	font-weight:bold;
-    line-height:48px;
-}
 .movie_row{
 	height:350px;
 	width:1030px;
 	margin:auto auto;
 	margin-top:24px;
+
 }
 .delete {
         width:32px;
@@ -138,7 +127,7 @@ p {
 	height:29px;  
 	float:left;
 	margin-left:9px;
-	margin-top:18px;
+	margin-top:19px;
  }
   
  .Circle{    
@@ -146,17 +135,39 @@ p {
 	height:29px;  
 	border-radius:32px;
 	border:2px solid red;
-	margin-left:32px;
+	margin-left:12px;
 	margin-top:17px;
 	float:left;	
  }
  
-.p2{
+.count{
     position:relative;
-    bottom:40px;
+    bottom:-4px;
     left:8px;
     color:white;
 }
+
+.footer {
+  background: #272734;
+  width:2000px;
+  height:170px;
+}
+
+.foot1 {
+  width:128px;
+  height:28px;
+  margin: 115px 0px 55px 116px;
+}
+.foot2 {
+  width:130px;
+  height:27px;
+  margin: 115px 0px 55px 13px;
+}
+
+
+
+
+
 
 
 	

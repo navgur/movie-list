@@ -1,6 +1,5 @@
-import React from 'react';
-import DeleteComponent from "./delete_component.js";
-import LikeDislikeComponent from "./like_dislike.js";
+import DeleteComponent from "./DeleteComponent.js";
+import LikeDislikeComponent from "./LikeDislike.js";
 
 const Movie = (props) => {
   return (
@@ -12,7 +11,7 @@ const Movie = (props) => {
         <div className="col3">
           <div className="col3_1">
             <p>{props.name1}</p>
-            <p2>{props.time} | {props.genre}</p2>
+            <p2>{props.year}   {props.time}  |  {props.genre}</p2>
             <h4>Description</h4>
             <p3>{props.discriptions}</p3>
           </div>
@@ -21,8 +20,8 @@ const Movie = (props) => {
             <LikeDislikeComponent
               movie={props.movie} 
               onLikeDislike={props.onLikeDislike}
-                handleLike={props.handleLike}
-                handleDislike={props.handleDislike}
+              handleLike={props.handleLike}
+              handleDislike={props.handleDislike}
             />
           </div>
         </div>
