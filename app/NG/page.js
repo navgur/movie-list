@@ -6,7 +6,7 @@ import { movie_list } from "./dumy_data.js";
 import "./grid.css";
 import DeleteComponent from "./DeleteComponent.js";
 import Footer from "./Footer.js";
-
+import MovieAdd from "./MovieAdd.js";
 
 
 const Page = () => {
@@ -17,6 +17,7 @@ const Page = () => {
     setMovies(updatedMovies);
   };
 
+  
   const sortMoviesByLikes = () => {   
     const sortedByLikes = [...movies].sort((a, b) => b.votes - a.votes);
     setMovies(sortedByLikes);
@@ -38,6 +39,7 @@ const Page = () => {
           onLikeDislike={sortMoviesByLikes}
         />
       ))}
+       <MovieAdd/>
       <Footer/>
   
     </div>
