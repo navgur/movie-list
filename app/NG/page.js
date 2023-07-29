@@ -17,7 +17,6 @@ const Page = () => {
     setMovies(updatedMovies);
   };
 
-  
   const sortMoviesByLikes = () => {   
     const sortedByLikes = [...movies].sort((a, b) => b.votes - a.votes);
     setMovies(sortedByLikes);
@@ -39,6 +38,7 @@ const Page = () => {
           onLikeDislike={sortMoviesByLikes}
         />
       ))}
+      <Footer/>
   
     </div>
   );
